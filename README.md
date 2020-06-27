@@ -16,6 +16,6 @@
 <img src="https://user-images.githubusercontent.com/48478625/85928941-8c9b8e80-b8ce-11ea-9fc1-e953c95ff556.png">
 <p align="center"><b>Fig 2: Login form</b></p><br>
 <img src="https://user-images.githubusercontent.com/48478625/85929037-0a5f9a00-b8cf-11ea-90d5-b5fdab0a4ee9.png">
-<p align="center">><b>Fig 3: OTP form</b></p><br>
+<p align="center"><b>Fig 3: OTP form</b></p><br>
 <img src="https://user-images.githubusercontent.com/48478625/85928993-ccfb0c80-b8ce-11ea-9309-febbb75831ee.png">
 <p align="center"><b>Fig 4: Messgae</b></p>
