@@ -17,11 +17,11 @@ function otp_sender(){
 	$email->addContent(
 	    "text/html", "<p>One Time Password(OTP): </p>".$otp
 	);
-	$sendgrid = new \SendGrid('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');
+	$sendgrid = new \SendGrid('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');
 	try {
 		$GLOBALS['result']=1;
 	    $response = $sendgrid->send($email);
-	    /*print $response->statusCode() . "\n";
+	   /* print $response->statusCode() . "\n";
 	    print_r($response->headers());
 	    print $response->body() . "\n";*/
 	    
