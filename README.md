@@ -7,7 +7,9 @@
 <b>Description: </b>
 <p>In the project, SendGrid API is used to send otp to the registered email address. Username and email must be unique. In case, if username or email address contradict user will get a pop-up to either create a fresh account or can use registered email address and password to login.  </p>
 <p>After entering correct email address and password user will be redirected to otp page where user must enter the same otp received into the registered email which is of 6 digits. In case, if user enter wrong otp, he/she will remain on the same page.</p> 
-<p>After entering correct otp user will redirect to the message page where username and user email address will be displayed. User can also logout from the page. </p>
+<p>After entering correct otp user will redirect to the message page where username and user email address will be displayed. User can also logout from the page. </p><br>
+<b>Note: </b><p>We need to install the dependencies for using SendGrip API. So you can download it from readme file inside sendGrid folder or download the whole assignment.</p> <br>
+
 
 <b>Screenshots: </b>
   <img src="https://user-images.githubusercontent.com/48478625/85928902-480ff300-b8ce-11ea-817a-240b990c05ff.png">
