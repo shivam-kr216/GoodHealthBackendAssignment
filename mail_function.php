@@ -17,7 +17,7 @@ function otp_sender(){
 	$email->addContent(
 	    "text/html", "<p>One Time Password(OTP): </p>".$otp
 	);
-	$sendgrid = new \SendGrid('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');
+	$sendgrid = new \SendGrid('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');
 	try {
 		$GLOBALS['result']=1;
 	    $response = $sendgrid->send($email);
