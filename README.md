@@ -2,6 +2,7 @@
 <b>Tools:</b>
 <ul><li> HTML </li><li> CSS </li><li> JavaScript </li><li> PHP</li></ul>
 
+<b>Functionality: </b>
 <ul><li>Add username, password, email and mobile into the table.</li><li>Password should be of minimum length 6.</li><li>Password will store in encrypted form into the database. </li><li> OTP is sent to the registered email id.</li><li>OTP verification is necessary to proceed onto next page. </li></ul>
 
 <b>Usage Instructions: </b> <ul><li> Download the assignment from the given link. </li><li> Import the database file to your phpMyAdmin. </li><li> User must have an account registered into database to login, if not create it using registration form. </li><li> Registered user can login using email address and password.</li><li> After entering correct email address and password user will otp to their registered email.</li><li> Verify the otp and redirect to message page. </li></ul>
