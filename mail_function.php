@@ -7,7 +7,7 @@ function otp_sender(){
 	$uname=$GLOBALS['uname'];
 
 	$email = new \SendGrid\Mail\Mail(); 
-	$email->setFrom("shivamkr216@outlook.com", "rishu");
+	$email->setFrom("johndoe11708693@outlook.com", "John doe");
 	$email->setSubject('OTP verification');
 	try {
 	    $email->addTo("$mail","$uname");
@@ -17,7 +17,7 @@ function otp_sender(){
 	$email->addContent(
 	    "text/html", "<p>One Time Password(OTP): </p>".$otp
 	);
-	$sendgrid = new \SendGrid('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');
+	$sendgrid = new \SendGrid('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');
 	try {
 		$GLOBALS['result']=1;
 	    $response = $sendgrid->send($email);
