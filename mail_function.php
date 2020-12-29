@@ -7,7 +7,7 @@ function otp_sender(){
 	$uname=$GLOBALS['uname'];
 
 	$email = new \SendGrid\Mail\Mail(); 
-	$email->setFrom("johndoe11708693@outlook.com", "John doe");
+	$email->setFrom("Email_ID", "Name");
 	$email->setSubject('OTP verification');
 	try {
 	    $email->addTo("$mail","$uname");
